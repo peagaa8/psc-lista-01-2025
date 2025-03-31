@@ -1,0 +1,60 @@
+Lista de Exercícios I
+
+4. programa {
+  funcao inicio() {
+    escreva ("Olá, mundo!")
+  }
+}
+
+|||||||||||||||||||||||||||||||||||||||
+5.   programa {
+    funcao inicio() {
+      
+   cadeia nome
+
+   // Solicita o nome do usuário
+   escreva("Qual é o seu nome? ")
+   leia(nome)
+   
+   // Exibe o nome na tela
+   escreva("Oi!, ", nome)
+
+    }
+  }
+
+|||||||||||||||||||||||||||||||||||||||
+6.   programa {
+    funcao inicio() {
+
+   // Declaração das variáveis
+   cadeia nome
+   inteiro idade
+   real altura
+
+   // Solicita o nome do usuário
+   escreva("Qual é o seu nome? ")
+   leia(nome)
+   
+   // Solicita a idade do usuário
+   escreva("Quantos anos você tem? ")
+   leia(idade)
+
+   // Solicita a altura do usuário
+   escreva("Qual é a sua altura? (em metros) ")
+   leia(altura)
+
+   // Exibe as informações coletadas
+   escreva("Nome: ", nome, "\n")
+   escreva("Idade: ", idade, "\n")
+   escreva("Altura: ", altura, " metros\n")
+
+    }
+  }
+
+|||||||||||||||||||||||||||||||||||||||
+7. public class OlaMundo {
+    public static void main(String[] args) {
+        
+        System.out.println("Olá, Mundo!");
+    }
+}
